@@ -37,15 +37,16 @@ Your Gaussian frequency calculation **must include**:
 ## ▶️ How to run
 
 - Run a Gaussian frequency calculation
-- Place gaus_vib_xyz_raman_hacky_v2.py in the same directory as the Gaussian output
+- Place vibxyz.py in the same directory as the Gaussian output
 - Rename the Gaussian output file to:
 ```text
 gaus.out.log
 ```
 - Run:
 ```text
-python gaus_vib_xyz_raman_hacky_v2.py
+python vibxyz.py
 ```
+The original implementation is preserved in legacy/ to ensure full reproducibility.
 
 ## 📊 Example notebook
 

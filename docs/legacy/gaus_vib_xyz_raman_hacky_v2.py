@@ -149,7 +149,8 @@ def parse_env_params(params):
     #
     return first, last, nderiv, step_size
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
+def main():    
     from math import pi
     from shutil import move
     import os
@@ -298,3 +299,5 @@ if __name__ == '__main__':
         output_fh.flush()
     
     output_fh.close()
+if __name__ == '__main__':
+    main()

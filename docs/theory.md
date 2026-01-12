@@ -1,9 +1,3 @@
-
----
-
-## 📄 `docs/theory.md`
-
-```markdown
 # Cartesian Decomposition of Vibrational Intensities
 
 This document summarizes the analytical background underlying the XYZ decomposition of IR and Raman intensities implemented in VibXYZ.
