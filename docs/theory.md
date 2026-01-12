@@ -15,13 +15,8 @@ $$
 Expanding into Cartesian components:
 
 $$
-\left|\frac{\partial \boldsymbol{\mu}}{\partial Q}\right|^2
-=
-\left(\frac{\partial \mu_x}{\partial Q}\right)^2
-+
-\left(\frac{\partial \mu_y}{\partial Q}\right)^2
-+
-\left(\frac{\partial \mu_z}{\partial Q}\right)^2
+\left|\frac{\partial \boldsymbol{\mu}}{\partial Q}\right|^2 = \left(\frac{\partial \mu_x}{\partial Q}\right)^2 +
+\left(\frac{\partial \mu_y}{\partial Q}\right)^2 + \left(\frac{\partial \mu_z}{\partial Q}\right)^2
 $$
 
 Gaussian reports only the total activity. VibXYZ extracts each Cartesian contribution independently.
@@ -42,10 +37,7 @@ $$
 \beta^2 =
 \frac{1}{2}
 \left[
-(\alpha_{xx} - \alpha_{yy})^2
-+ (\alpha_{xx} - \alpha_{zz})^2
-+ (\alpha_{yy} - \alpha_{zz})^2
-+ 6(\alpha_{xy}^2 + \alpha_{xz}^2 + \alpha_{yz}^2)
+(\alpha_{xx} - \alpha_{yy})^2 + (\alpha_{xx} - \alpha_{zz})^2 + (\alpha_{yy} - \alpha_{zz})^2 + 6(\alpha_{xy}^2 + \alpha_{xz}^2 + \alpha_{yz}^2)
 \right]
 $$
 
